@@ -78,7 +78,7 @@ export class App extends Component {
             />
           </>
         ) : (
-          'No contacts'
+          <span>'No contacts'</span>
         )}
       </div>
     );
